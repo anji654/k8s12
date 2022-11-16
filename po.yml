@@ -1,11 +1,11 @@
+
 apiVersion: v1
 kind: Pod
-metadata: 
- name: anji-pod
+metadata:
+   name: hello-pod
 spec:
-containers:
-- name: 2nd-container
-  image: anajaneyulu1994/naresh:1
-  ports:
-  - containerPort: 8080
-
+  containers:
+   - name: first-container
+     image: anajaneyulu1994/naresh:1
+     ports:
+     - containerPort: 8080
